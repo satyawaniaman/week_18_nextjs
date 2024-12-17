@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="border-x-neutral-200 border-b p-3 text-center bg-white">
+          appbar
+        </div>
         {children}
       </body>
     </html>
